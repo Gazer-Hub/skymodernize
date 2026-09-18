@@ -68,8 +68,8 @@ img{display:block;max-width:100%}
 .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
 .card{background:#fff;border:1px solid rgba(0,0,0,0.1);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;transition:0.3s}
 .card:hover{box-shadow:0 20px 40px rgba(10,22,40,0.12);border-color:rgba(37,99,235,0.2);transform:translateY(-2px)}
-.card-img{height:160px;overflow:hidden;background:var(--navy)}
-.card-img img{width:100%;height:100%;object-fit:cover;transition:0.7s}
+.card-img{height:160px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center}
+.card-img img{width:100%;height:100%;object-fit:cover;object-position:center;transition:0.7s;background:#fff}
 .card:hover .card-img img{transform:scale(1.05)}
 .card-img-placeholder{height:160px;background:linear-gradient(135deg,#0A1628,#122240);display:flex;align-items:center;justify-content:center;position:relative}
 .card-img-placeholder .icon{width:56px;height:56px;border-radius:16px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;font-size:22px;color:rgba(255,255,255,0.8)}
