@@ -1,2 +1,0 @@
-# sky-modernize-webhook
-webhook
